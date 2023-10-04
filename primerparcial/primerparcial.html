@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+        * {
+            margin: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body {
+            background-color: rgb(238, 238, 238);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .cards {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .cards-containers {
+            margin: 20px 0px 0px 0px;
+            padding: 20px 0px 0px 20px;
+            width: 400px;
+            height: 200px;
+            border-radius: 10px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+        }
+        
+        .images {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 2px white solid;
+            box-shadow: 0px 2px 4px rgba(0,0,0,.15);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #personal-info {
+            margin-left: 30px;
+        }
+
+        #image-1 {
+            background-image: url(https://www.infobae.com/new-resizer/Rvt32gYWEePZU0EQ-ymedrBPyBA=/arc-anglerfish-arc2-prod-infobae/public/MGFWRFLIZBCB3FCHA3A24ZARXU.JPG);
+        }
+        #image-2 {
+            background-image: url(https://img.freepik.com/foto-gratis/hombre-gafas-sol-sombrero-sonriendo-sentado-junto-piscina_176420-3969.jpg);
+        }
+        #image-3 {
+            background-image: url(https://img.freepik.com/fotos-premium/joven-hermosa-mujer-aislada-retrato-estudiante-chica-gafas-primer-plano-estudio-tiro-joven-empresaria-sonriendo-interior-gente-belleza-estudiante-estilo-vida-concepto-negocio_73899-2622.jpg);
+        }
+        #image-4 {
+            background-image: url(https://media.revistagq.com/photos/5fb7ad3b6624f900f7b2f49a/4:3/w_968,h_726,c_limit/pelo-barba-gafas-segun-forma-cara.jpg);
+        }
+
+        .follow-share {
+            margin-top: 10px;
+        }
+
+        #follow, #share {
+            width: 70px;
+            height: 40px;
+            border-radius: 2px;
+            padding: 2px;
+            text-decoration: none;
+            color: #fff;
+            background-color: rgb(0, 123, 255);
+        }
+
+        #facebook {
+            width: 20px;
+            height: 20px;
+            background-image: url(https://cdn-icons-png.flaticon.com/512/49/49354.png);
+        }
+
+        #x {
+            width: 20px;
+            height: 20px;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023_original.svg);
+        }
+
+        .socials {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+
+        .social-media {
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        h3 {
+            font-weight: 200;
+        }
+
+        span, p {
+            font-weight: 200;
+            font-size: large;
+        }
+
+        #highlight {
+            font-weight: 900;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <main>
+        <div class="cards">
+            <div class="cards-containers">
+                <div id="image-1" class="images">
+                </div>
+
+                <div id="personal-info">
+                    <h3>
+                        <span id="highlight">Michael</span> Deo
+                    </h3>
+                    <span>Ui UX Designer</span>
+                    <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                    <div class="follow-share">
+                        <a href="#" id="follow">Follow</a>
+                        <a href="#" id="share">Message</a>
+                    </div>
+                    <div class="socials">
+                        <a href="#" id="x" class="social-media"></a>
+                        <a href="#" id="facebook" class="social-media"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cards-containers">
+                <div id="image-2" class="images">
+                </div>
+                <div id="personal-info">
+                    <h3>
+                        <span id="highlight">Michael </span>Deo
+                    </h3>
+                    <span>Ui UX Designer</span>
+                    <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                    <div class="follow-share">
+                        <a href="#" id="follow">Follow</a>
+                        <a href="#" id="share">Message</a>
+                    </div>
+                    <div class="socials">
+                        <a href="#" id="x" class="social-media"></a>
+                        <a href="#" id="facebook" class="social-media"></a>
+                    </div>
+                </div>
+            </div>
+             <div class="cards-containers">
+                <div id="image-3" class="images">
+                </div>
+                <div id="personal-info">
+                    <h3>
+                        <span id="highlight">Michael </span>Deo
+                    </h3>
+                    <span>Ui UX Designer</span>
+                    <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                    <div class="follow-share">
+                        <a href="#" id="follow">Follow</a>
+                        <a href="#" id="share">Message</a>
+                    </div>
+                    <div class="socials">
+                        <a href="#" id="x" class="social-media"></a>
+                        <a href="#" id="facebook" class="social-media"></a>
+                    </div>
+                </div>
+            </div>
+             <div class="cards-containers">
+                <div id="image-4" class="images">
+                </div>
+                <div id="personal-info">
+                    <h3>
+                        <span id="highlight">Michael </span>Deo
+                    </h3>
+                    <span>Ui UX Designer</span>
+                    <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
+                    <div class="follow-share">
+                        <a href="#" id="follow">Follow</a>
+                        <a href="#" id="share">Message</a>
+                    </div>
+                    <div class="socials">
+                        <a href="#" id="x" class="social-media"></a>
+                        <a href="#" id="facebook" class="social-media"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
